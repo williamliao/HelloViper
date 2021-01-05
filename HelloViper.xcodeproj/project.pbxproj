@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C819CC0D21B8B0E000F03FCE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C819CC0C21B8B0E000F03FCE /* Theme.swift */; };
+		C828518621B904E40014FBB9 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828518521B904E40014FBB9 /* SearchManager.swift */; };
+		C82C7E0A21BA4C0F0018CC35 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C7E0921BA4C0F0018CC35 /* SearchFooter.swift */; };
 		C833040421B649ED00BCB0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833040321B649ED00BCB0F3 /* AppDelegate.swift */; };
-		C833040621B649ED00BCB0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833040521B649ED00BCB0F3 /* ViewController.swift */; };
 		C833040921B649ED00BCB0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C833040721B649ED00BCB0F3 /* Main.storyboard */; };
 		C833040B21B649F000BCB0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C833040A21B649F000BCB0F3 /* Assets.xcassets */; };
 		C833040E21B649F000BCB0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C833040C21B649F000BCB0F3 /* LaunchScreen.storyboard */; };
 		C833041921B649F000BCB0F3 /* HelloViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833041821B649F000BCB0F3 /* HelloViperTests.swift */; };
 		C833042421B649F000BCB0F3 /* HelloViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833042321B649F000BCB0F3 /* HelloViperUITests.swift */; };
+		C833044621B6539800BCB0F3 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833044521B6539800BCB0F3 /* Candy.swift */; };
+		C833044821B653D600BCB0F3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833044721B653D600BCB0F3 /* DataManager.swift */; };
+		C833044B21B6544A00BCB0F3 /* CandyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833044A21B6544A00BCB0F3 /* CandyListViewController.swift */; };
+		C833044E21B6554400BCB0F3 /* CandyListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833044D21B6554400BCB0F3 /* CandyListPresenter.swift */; };
+		C833045121B655C400BCB0F3 /* CandyListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833045021B655C400BCB0F3 /* CandyListProtocols.swift */; };
+		C833045421B6571500BCB0F3 /* CandyListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833045321B6571500BCB0F3 /* CandyListInteractor.swift */; };
+		C833045721B65F2400BCB0F3 /* CandyListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833045621B65F2400BCB0F3 /* CandyListWireframe.swift */; };
+		C833045921B65F9500BCB0F3 /* CandyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833045821B65F9500BCB0F3 /* CandyDetailViewController.swift */; };
+		C833046021B6643200BCB0F3 /* CandyDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833045F21B6643200BCB0F3 /* CandyDetailProtocols.swift */; };
+		C833046221B6649200BCB0F3 /* CandyDetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833046121B6649200BCB0F3 /* CandyDetailWireFrame.swift */; };
+		C833046421B664F400BCB0F3 /* CandyDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C833046321B664F400BCB0F3 /* CandyDetailPresenter.swift */; };
+		C8CC4AA421B7A89F006321E7 /* CandyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC4AA321B7A89F006321E7 /* CandyDataSource.swift */; };
+		C8CC4AA621B7AA43006321E7 /* CandyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC4AA521B7AA43006321E7 /* CandyTableViewDelegate.swift */; };
+		C8CC4AA821B7B09C006321E7 /* CandyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC4AA721B7B09C006321E7 /* CandyTableViewCell.swift */; };
+		C8CC4AAA21B7B0FA006321E7 /* CandyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC4AA921B7B0FA006321E7 /* CandyTableView.swift */; };
+		C8CC4AAD21B7B679006321E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC4AAC21B7B679006321E7 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C819CC0C21B8B0E000F03FCE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C828518521B904E40014FBB9 /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		C82C7E0921BA4C0F0018CC35 /* SearchFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
 		C833040021B649ED00BCB0F3 /* HelloViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C833040321B649ED00BCB0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C833040521B649ED00BCB0F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C833040821B649ED00BCB0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C833040A21B649F000BCB0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C833040D21B649F000BCB0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,22 @@
 		C833041F21B649F000BCB0F3 /* HelloViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C833042321B649F000BCB0F3 /* HelloViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViperUITests.swift; sourceTree = "<group>"; };
 		C833042521B649F000BCB0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C833044521B6539800BCB0F3 /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		C833044721B653D600BCB0F3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C833044A21B6544A00BCB0F3 /* CandyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyListViewController.swift; sourceTree = "<group>"; };
+		C833044D21B6554400BCB0F3 /* CandyListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyListPresenter.swift; sourceTree = "<group>"; };
+		C833045021B655C400BCB0F3 /* CandyListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyListProtocols.swift; sourceTree = "<group>"; };
+		C833045321B6571500BCB0F3 /* CandyListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyListInteractor.swift; sourceTree = "<group>"; };
+		C833045621B65F2400BCB0F3 /* CandyListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyListWireframe.swift; sourceTree = "<group>"; };
+		C833045821B65F9500BCB0F3 /* CandyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailViewController.swift; sourceTree = "<group>"; };
+		C833045F21B6643200BCB0F3 /* CandyDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailProtocols.swift; sourceTree = "<group>"; };
+		C833046121B6649200BCB0F3 /* CandyDetailWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailWireFrame.swift; sourceTree = "<group>"; };
+		C833046321B664F400BCB0F3 /* CandyDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailPresenter.swift; sourceTree = "<group>"; };
+		C8CC4AA321B7A89F006321E7 /* CandyDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDataSource.swift; sourceTree = "<group>"; };
+		C8CC4AA521B7AA43006321E7 /* CandyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTableViewDelegate.swift; sourceTree = "<group>"; };
+		C8CC4AA721B7B09C006321E7 /* CandyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTableViewCell.swift; sourceTree = "<group>"; };
+		C8CC4AA921B7B0FA006321E7 /* CandyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTableView.swift; sourceTree = "<group>"; };
+		C8CC4AAC21B7B679006321E7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C82C7E0721BA15640018CC35 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C828518521B904E40014FBB9 /* SearchManager.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C82C7E0821BA1CD60018CC35 /* TableDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C8CC4AA321B7A89F006321E7 /* CandyDataSource.swift */,
+				C8CC4AA521B7AA43006321E7 /* CandyTableViewDelegate.swift */,
+			);
+			path = TableDelegate;
+			sourceTree = "<group>";
+		};
 		C83303F721B649ED00BCB0F3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +150,18 @@
 		C833040221B649ED00BCB0F3 /* HelloViper */ = {
 			isa = PBXGroup;
 			children = (
+				C833045A21B663C500BCB0F3 /* CandyDetail */,
+				C833045521B65F0900BCB0F3 /* WireFrame */,
+				C833045221B6570400BCB0F3 /* Interactor */,
+				C833044F21B6559800BCB0F3 /* Protocols */,
+				C833044C21B6551A00BCB0F3 /* Presenter */,
+				C833044921B6543100BCB0F3 /* View */,
+				C833044421B6538B00BCB0F3 /* Entity */,
+				C82C7E0721BA15640018CC35 /* Search */,
+				C8CC4AAB21B7B65C006321E7 /* Helper */,
+				C8CC4AAE21B7D248006321E7 /* Model */,
 				C833040321B649ED00BCB0F3 /* AppDelegate.swift */,
-				C833040521B649ED00BCB0F3 /* ViewController.swift */,
+				C819CC0C21B8B0E000F03FCE /* Theme.swift */,
 				C833040721B649ED00BCB0F3 /* Main.storyboard */,
 				C833040A21B649F000BCB0F3 /* Assets.xcassets */,
 				C833040C21B649F000BCB0F3 /* LaunchScreen.storyboard */,
@@ -123,6 +186,117 @@
 				C833042521B649F000BCB0F3 /* Info.plist */,
 			);
 			path = HelloViperUITests;
+			sourceTree = "<group>";
+		};
+		C833044421B6538B00BCB0F3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C833044521B6539800BCB0F3 /* Candy.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C833044921B6543100BCB0F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C82C7E0821BA1CD60018CC35 /* TableDelegate */,
+				C833044A21B6544A00BCB0F3 /* CandyListViewController.swift */,
+				C8CC4AA721B7B09C006321E7 /* CandyTableViewCell.swift */,
+				C8CC4AA921B7B0FA006321E7 /* CandyTableView.swift */,
+				C82C7E0921BA4C0F0018CC35 /* SearchFooter.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C833044C21B6551A00BCB0F3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C833044D21B6554400BCB0F3 /* CandyListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C833044F21B6559800BCB0F3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C833045021B655C400BCB0F3 /* CandyListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C833045221B6570400BCB0F3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C833045321B6571500BCB0F3 /* CandyListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C833045521B65F0900BCB0F3 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				C833045621B65F2400BCB0F3 /* CandyListWireframe.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		C833045A21B663C500BCB0F3 /* CandyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C833045E21B6640E00BCB0F3 /* Wireframe */,
+				C833045D21B6640200BCB0F3 /* Protocols */,
+				C833045C21B663EE00BCB0F3 /* Presenter */,
+				C833045B21B663E100BCB0F3 /* View */,
+			);
+			path = CandyDetail;
+			sourceTree = "<group>";
+		};
+		C833045B21B663E100BCB0F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C833045821B65F9500BCB0F3 /* CandyDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C833045C21B663EE00BCB0F3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C833046321B664F400BCB0F3 /* CandyDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C833045D21B6640200BCB0F3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C833045F21B6643200BCB0F3 /* CandyDetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C833045E21B6640E00BCB0F3 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				C833046121B6649200BCB0F3 /* CandyDetailWireFrame.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		C8CC4AAB21B7B65C006321E7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C8CC4AAC21B7B679006321E7 /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C8CC4AAE21B7D248006321E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C833044721B653D600BCB0F3 /* DataManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +430,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C833040621B649ED00BCB0F3 /* ViewController.swift in Sources */,
+				C833044E21B6554400BCB0F3 /* CandyListPresenter.swift in Sources */,
+				C833044821B653D600BCB0F3 /* DataManager.swift in Sources */,
+				C833045421B6571500BCB0F3 /* CandyListInteractor.swift in Sources */,
+				C8CC4AA621B7AA43006321E7 /* CandyTableViewDelegate.swift in Sources */,
+				C833045721B65F2400BCB0F3 /* CandyListWireframe.swift in Sources */,
+				C833045121B655C400BCB0F3 /* CandyListProtocols.swift in Sources */,
+				C8CC4AAD21B7B679006321E7 /* Extensions.swift in Sources */,
+				C833044B21B6544A00BCB0F3 /* CandyListViewController.swift in Sources */,
+				C833045921B65F9500BCB0F3 /* CandyDetailViewController.swift in Sources */,
+				C819CC0D21B8B0E000F03FCE /* Theme.swift in Sources */,
+				C82C7E0A21BA4C0F0018CC35 /* SearchFooter.swift in Sources */,
+				C833046021B6643200BCB0F3 /* CandyDetailProtocols.swift in Sources */,
+				C833046221B6649200BCB0F3 /* CandyDetailWireFrame.swift in Sources */,
+				C833044621B6539800BCB0F3 /* Candy.swift in Sources */,
+				C8CC4AA421B7A89F006321E7 /* CandyDataSource.swift in Sources */,
 				C833040421B649ED00BCB0F3 /* AppDelegate.swift in Sources */,
+				C8CC4AAA21B7B0FA006321E7 /* CandyTableView.swift in Sources */,
+				C833046421B664F400BCB0F3 /* CandyDetailPresenter.swift in Sources */,
+				C8CC4AA821B7B09C006321E7 /* CandyTableViewCell.swift in Sources */,
+				C828518621B904E40014FBB9 /* SearchManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +632,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = william.HelloViper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +649,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = william.HelloViper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

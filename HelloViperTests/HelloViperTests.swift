@@ -2,8 +2,8 @@
 //  HelloViperTests.swift
 //  HelloViperTests
 //
-//  Created by 雲端開發部-廖彥勛 on 2018/12/4.
-//  Copyright © 2018 雲端開發部-廖彥勛. All rights reserved.
+//  Created by William on 2018/12/4.
+//  Copyright © 2018 William. All rights reserved.
 //
 
 import XCTest
